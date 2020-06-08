@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjs.test.mapper.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.zjs.test.entity.OrderEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="orderid" jdbcType="INTEGER" property="orderid" />
+    <result column="vipid" jdbcType="INTEGER" property="vipid" />
+    <result column="vipname" jdbcType="VARCHAR" property="vipname" />
+    <result column="vipphone" jdbcType="VARCHAR" property="vipphone" />
+    <result column="vipaddress" jdbcType="VARCHAR" property="vipaddress" />
+    <result column="vipmoney" jdbcType="DOUBLE" property="vipmoney" />
+    <result column="vipclass" jdbcType="VARCHAR" property="vipclass" />
+    <result column="vipdiscount" jdbcType="VARCHAR" property="vipdiscount" />
+    <result column="ordermoney" jdbcType="DOUBLE" property="ordermoney" />
+    <result column="realmoney" jdbcType="DOUBLE" property="realmoney" />
+    <result column="activityname" jdbcType="VARCHAR" property="activityname" />
+    <result column="receiptway" jdbcType="VARCHAR" property="receiptway" />
+    <result column="xianjin" jdbcType="VARCHAR" property="xianjin" />
+    <result column="employeeid" jdbcType="INTEGER" property="employeeid" />
+    <result column="employeename" jdbcType="VARCHAR" property="employeename" />
+    <result column="operatorid" jdbcType="INTEGER" property="operatorid" />
+    <result column="operator" jdbcType="VARCHAR" property="operator" />
+    <result column="writetime" jdbcType="DATE" property="writetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    orderid, vipid, vipname, vipphone, vipaddress, vipmoney, vipclass, vipdiscount, ordermoney, 
+    realmoney, activityname, receiptway, xianjin, employeeid, employeename, operatorid, 
+    operator, writetime
+  </sql>
+</mapper>

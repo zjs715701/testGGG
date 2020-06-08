@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjs.test.mapper.VipMapper">
+  <resultMap id="BaseResultMap" type="com.zjs.test.entity.VipEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="vipid" jdbcType="INTEGER" property="vipid" />
+    <result column="vipname" jdbcType="VARCHAR" property="vipname" />
+    <result column="vipsex" jdbcType="VARCHAR" property="vipsex" />
+    <result column="vipphone" jdbcType="VARCHAR" property="vipphone" />
+    <result column="vipbirth" jdbcType="DATE" property="vipbirth" />
+    <result column="joinviptime" jdbcType="DATE" property="joinviptime" />
+    <result column="initegralnum" jdbcType="INTEGER" property="initegralnum" />
+    <result column="vipmoney" jdbcType="DOUBLE" property="vipmoney" />
+    <result column="vipstate" jdbcType="VARCHAR" property="vipstate" />
+    <result column="vipcardid" jdbcType="INTEGER" property="vipcardid" />
+    <result column="employeeid" jdbcType="INTEGER" property="employeeid" />
+    <result column="employeename" jdbcType="VARCHAR" property="employeename" />
+    <result column="writetime" jdbcType="DATE" property="writetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    vipid, vipname, vipsex, vipphone, vipbirth, joinviptime, initegralnum, vipmoney, 
+    vipstate, vipcardid, employeeid, employeename, writetime
+  </sql>
+</mapper>

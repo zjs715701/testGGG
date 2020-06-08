@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjs.test.mapper.OrderDetailMapper">
+  <resultMap id="BaseResultMap" type="com.zjs.test.entity.OrderDetailEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="orderdetailid" jdbcType="INTEGER" property="orderdetailid" />
+    <result column="orderid" jdbcType="INTEGER" property="orderid" />
+    <result column="productid" jdbcType="INTEGER" property="productid" />
+    <result column="productname" jdbcType="VARCHAR" property="productname" />
+    <result column="productsize" jdbcType="VARCHAR" property="productsize" />
+    <result column="productcolor" jdbcType="VARCHAR" property="productcolor" />
+    <result column="productprice" jdbcType="DOUBLE" property="productprice" />
+    <result column="buynum" jdbcType="INTEGER" property="buynum" />
+    <result column="vipprice" jdbcType="DOUBLE" property="vipprice" />
+    <result column="realmoney" jdbcType="DOUBLE" property="realmoney" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    orderdetailid, orderid, productid, productname, productsize, productcolor, productprice, 
+    buynum, vipprice, realmoney
+  </sql>
+</mapper>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjs.test.mapper.ProductMapper">
+  <resultMap id="BaseResultMap" type="com.zjs.test.entity.ProductEntity">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="productid" jdbcType="INTEGER" property="productid" />
+    <result column="productname" jdbcType="VARCHAR" property="productname" />
+    <result column="typeid" jdbcType="INTEGER" property="typeid" />
+    <result column="productsize" jdbcType="VARCHAR" property="productsize" />
+    <result column="productcolor" jdbcType="VARCHAR" property="productcolor" />
+    <result column="productprice" jdbcType="DOUBLE" property="productprice" />
+    <result column="producter" jdbcType="VARCHAR" property="producter" />
+    <result column="productstate" jdbcType="VARCHAR" property="productstate" />
+    <result column="employeeid" jdbcType="INTEGER" property="employeeid" />
+    <result column="employeename" jdbcType="VARCHAR" property="employeename" />
+    <result column="writetime" jdbcType="DATE" property="writetime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    productid, productname, typeid, productsize, productcolor, productprice, producter, 
+    productstate, employeeid, employeename, writetime
+  </sql>
+</mapper>
